@@ -1,0 +1,10 @@
+{
+  "name": "test-npm-nested3",
+  "version": "1.0.0",
+  "dependencies": {
+    "unavailable-npm-package-final": "^1.5.0"
+  },
+  "devDependencies": {
+    "missing-org/removed-action": "^2.0.0"
+  }
+}
