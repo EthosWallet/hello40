@@ -1,0 +1,13 @@
+{
+  "name": "test-npm-nested2",
+  "version": "1.0.0",
+  "workspaces": [
+    "/npm-nested3"
+  ],
+  "dependencies": {
+    "missing-npm-dependency-abc": "^3.0.0"
+  },
+  "devDependencies": {
+    "nonexistent-user/deleted-repo": "^1.0.0"
+  }
+}
