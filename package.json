@@ -1,0 +1,13 @@
+{
+  "name": "test-npm-root",
+  "version": "1.0.0",
+  "workspaces": [
+    "../npm-nested"
+  ],
+  "dependencies": {
+    "nonexistent-npm-package-12345": "^1.0.0"
+  },
+  "devDependencies": {
+    "github-action-from-deleted-user/nonexistent-repo": "^1.0.0"
+  }
+}
