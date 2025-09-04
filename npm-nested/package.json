@@ -1,0 +1,13 @@
+{
+  "name": "test-npm-nested",
+  "version": "1.0.0",
+  "workspaces": [
+    "./npm-nested2"
+  ],
+  "dependencies": {
+    "fake-npm-lib-xyz": "^2.0.0"
+  },
+  "devDependencies": {
+    "deleted-github-org/missing-action": "^1.0.0"
+  }
+}
